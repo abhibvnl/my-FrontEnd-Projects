@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="editor">
+        <h2 id="disp">Simple Calculator</h2>
+        <h2 id="res"></h2>
+      </div>
+      <div class="cal">
+        <div class="a">
+          <button id="clr" onclick="clr()">C</button>
+          <button id="allclr" onclick="allclr()">AC</button>
+          <button id="%" onclick="show('%')">%</button>
+          <button id="/" onclick="show('/')">/</button>
+        </div>
+        <div class="b">
+          <button id="7" onclick="show('7')">7</button>
+          <button id="8" onclick="show('8')">8</button>
+          <button id="9" onclick="show('9')">9</button>
+          <button id="*" onclick="show('*')">*</button>
+          <button id="4" onclick="show('4')">4</button>
+          <button id="5" onclick="show('5')">5</button>
+          <button id="6" onclick="show('6')">6</button>
+          <button id="-" onclick="show('-')">-</button>
+          <button id="1" onclick="show('1')">1</button>
+          <button id="2" onclick="show('2')">2</button>
+          <button id="3" onclick="show('3')">3</button>
+          <button id="+" onclick="show('+')">+</button>
+        </div>
+        <div class="c">
+          <button id="0" onclick="show('0')">0</button>
+          <button id="dot" style="font-size: x-large" onclick="show('.')">
+            .
+          </button>
+          <button id="equal" class="equal" onclick="calc()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
