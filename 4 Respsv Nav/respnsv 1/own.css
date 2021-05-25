@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    position: sticky;
+    top: 0px;
+    
+}
+nav li{
+    list-style: none;
+    display: inline;  
+}
+nav a:hover
+{
+    background-color: #555;
+}
+a{
+    cursor: pointer;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem; 
+}
+.contactPage,.servicePage,.loginPage{
+    display: none;
+    position: relative;
+    top: 300px;
+}
+.homePage{
+    position: relative;
+    top: 300px; 
+}
+.newNav{
+    display: none;
+    position: absolute;
+    top: 69px;
+    right: 15px;
+    bottom: 45px;
+    left: 15px;
+    padding: 10px 0;
+    height: 240px;
+    width: 94%;
+    overflow-y: auto;
+    transition: 0.3s;
+    border: 2px solid black;
+    animation: okay 500ms 0s 1 forwards ;
+    background: rgba(85, 85, 85, 0.746);
+   
+}
+
+
+   @keyframes okay {
+    0%{
+        width: 0%;
+       
+    }
+
+    100%{
+       width: 94%;
+     
+    }
+    
+}
+
+.newNav li{
+    list-style: none;
+    
+}
+.newNav ul{
+    padding-left: 0px;
+}
+.newNav a{
+   
+ 
+  display: block;
+  text-decoration: none;
+ color: black;
+ padding: 1rem; 
+ text-align: center;
+
+}
+
+.toggle{
+    display: none;
+}
+.fas{
+ color: white;
+background: transparent;
+ padding: 5px;
+ 
+
+}
+  
+@media (max-width:500px),(max-width:624px) {
+  nav{
+    padding: 0px 15px;
+
+  }
+    .fa-bars{
+        cursor: pointer; 
+       }
+       nav li a{
+           display: none;
+       }
+       
+       .toggle{
+           display: block  ;
+       }
+       nav li{
+           display: block;
+       }
+     
+}

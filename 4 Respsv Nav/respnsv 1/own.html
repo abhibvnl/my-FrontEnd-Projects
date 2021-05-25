@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="own.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="brand"><h1>Google</h1></div>
+
+      <div class="navLinks">
+        <ul>
+          <li><a onclick="homeM()" >Home</a></li>
+          <a onclick="toggleMenu()" class="toggle">
+            <i class="fas fa-bars "></i>
+          </a>
+          <li><a onclick="contactM()" >contact</a></li>
+          <li><a onclick="serviceM()" >service</a></li>
+          <li><a onclick="loginM()" >login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div style="text-align: center" class="test">
+    <div class="homePage">
+      <h1>This is Home Page</h1>
+    </div>
+    <div class="contactPage">
+      <h1>This is contact Page</h1>
+    </div>
+    <div class="servicePage">
+      <h1>This is Service Page</h1>
+    </div>
+    <div class="loginPage">
+      <h1>This is Login Page</h1>
+    </div>
+    <div class="newNav">
+      <ul>
+        <li><a onclick="home()" >Home</a></li>
+        <li><a onclick="contact()" >contact</a></li>
+        <li><a onclick="service()" >service</a></li>
+        <li><a onclick="login()" >login</a></li>
+      </ul>
+    </div>
+    <script src="own.js"></script>
+  </body>
+</html>
