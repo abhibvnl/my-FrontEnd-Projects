@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+.container{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.numBody{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+h1{
+     color: brown; 
+     text-align: center;
+     font-size: 60px; 
+     animation: abhi 1000ms 0s infinite forwards ;
+
+}
+
+button{
+    visibility: visible;
+    margin: 10px;
+  
+}
+  
+@keyframes abhi {
+ 
+
+  from{
+      font-size: 70px;
+  }
+
+  to{
+      font-size: 0px;
+  }
+}
