@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 100vh;   
+}
+.sectionA{
+    display: grid;
+    grid-template-rows: repeat( 4,100px);
+    text-align: center;
+    cursor: pointer;
+  
+}
+.sectionB{
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg);
+    padding:100px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+   /* background-color: blue;*/
+    font-size: 3rem;
+}
+.center:hover{
+    opacity: 0.7      ;
+}
+
+.student{
+    background-color: rgba(137, 43, 226, 0.5);
+}
+
+/*.lesson{
+    background-color: plum;
+}*/
+
+/*.setting{
+    background-color: lawngreen;
+}*/
+.url{
+    padding: 50px;
+}
+.url input{
+    width:100%;
+    border: none;
+    outline: none;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+.url span{
+    margin-top: 30px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+}
+.fa-chevron-circle-left{
+    cursor: pointer;
+}

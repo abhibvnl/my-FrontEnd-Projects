@@ -1,0 +1,19 @@
+body{
+    background-color: #F8F9FD;
+  }
+  #dragme {
+    position: absolute;
+    z-index: 5;
+    width: 200px;
+    background-color: #CDCDCD;
+    border: 1px solid #D3D3D3;
+    text-align: center;
+  }
+  
+  #dragme-header {
+    padding: 10px;
+    cursor: move;
+    z-index: 6;
+    background: linear-gradient(103.76deg, #C400E3 -6.79%, #FD2EC3 107.57%);
+    color: #fff;
+  }
